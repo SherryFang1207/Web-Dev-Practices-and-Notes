@@ -1,0 +1,13 @@
+p {
+  color: red;
+}
+img {
+  width: 300px;
+}
+tr {
+  background-color: pink;
+  diaplay: inline-block;
+}
+h1 {
+  display: inline;
+}

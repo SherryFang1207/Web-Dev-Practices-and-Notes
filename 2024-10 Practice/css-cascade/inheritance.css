@@ -1,0 +1,13 @@
+@layer p-lvl, body-lvl;
+
+@layer body-lvl {
+  body {
+    color: red;
+  }
+}
+
+@layer p-lvl {
+  p {
+    color: blue;
+  }
+}

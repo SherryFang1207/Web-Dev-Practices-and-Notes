@@ -1,0 +1,46 @@
+table {
+  border-collapse: collapse; /* Remove default spacing between table borders */
+  border-top: 1px solid #999; /* Top border for the entire table */
+  border-bottom: 1px solid #999; /* Bottom border for the entire table */
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.3em;
+  vertical-align: top; /* Align text at the top of the cell */
+}
+
+th,
+td {
+  border-top: 1px solid #999; /* Top border for individual cells */
+  border-bottom: 1px solid #999; /* Bottom border for individual cells */
+}
+
+th[scope="col"]:first-child,
+td:first-child {
+  text-align: left; /* Align text columns left */
+}
+
+th[scope="col"]:nth-child(2),
+td:nth-child(2),
+th[scope="col"]:nth-child(3),
+td:nth-child(3) {
+  text-align: right; /* Align number columns right */
+}
+
+tfoot th {
+  text-align: right; /* Align footer heading right */
+}
+
+tfoot td {
+  text-align: left; /* Align footer data left */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eee; /* Stripe odd rows */
+}
+
+tfoot tr {
+  border-top: 1px solid #999; /* Footer top border */
+}

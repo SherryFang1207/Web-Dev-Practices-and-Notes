@@ -1,0 +1,5 @@
+p {
+  padding: 40px;
+  border: 10px solid black;
+  border-top-right-radius: 100% 100%;
+}

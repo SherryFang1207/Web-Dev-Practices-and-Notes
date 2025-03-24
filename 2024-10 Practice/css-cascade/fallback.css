@@ -1,0 +1,23 @@
+body {
+  color: green;
+}
+
+/* a:any-link {
+  color: yellow;
+}
+
+a {
+  color: hotpink;
+} */
+
+.my-class-1 a {
+  color: inherit;
+}
+
+.my-class-2 a {
+  color: initial;
+}
+
+.my-class-3 a {
+  color: unset;
+}

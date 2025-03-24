@@ -1,0 +1,71 @@
+/* h1 {
+  color: blue;
+}
+h2 {
+  background-color: blue;
+  color: white;
+}
+span {
+  font-size: 200%;
+} */
+/* #special {
+  background-color: yellow;
+}
+.alert {
+  border: 1px solid gray;
+}
+.alert.stop {
+  background-color: red;
+}
+.alert.go {
+  background-color: green;
+} */
+/* a:hover {
+  text-decoration: none;
+}
+a:link {
+  color: orange;
+}
+a:visited {
+  color: green;
+}
+
+.container > *:first-child {
+  font-size: 150%;
+}
+.container > *:first-child::first-line {
+  color: red;
+}
+
+table tr:nth-child(odd) {
+  background-color: black;
+  color: white;
+} */
+
+/* h2 + p {
+  color: red;
+}
+
+ul.list > li {
+  border-bottom: 1px solid gray;
+  list-style-type: none;
+} */
+
+li {
+  margin: 40px;
+}
+a {
+  border: 3px solid gray;
+  font-size: 300%;
+  padding: 10px;
+}
+
+a[title] {
+  border-color: pink;
+}
+a[href*="contact"] {
+  border-color: orange;
+}
+a[href^="https"] {
+  border-color: green;
+}

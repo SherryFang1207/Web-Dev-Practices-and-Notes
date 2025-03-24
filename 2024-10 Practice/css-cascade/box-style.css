@@ -1,0 +1,40 @@
+p {
+  margin: 0;
+}
+
+article {
+  max-width: 500px;
+  padding: 10px;
+  background-color: red;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0 0 0 / 0%),
+    rgb(0 0 0 / 25%)
+  );
+}
+
+.simple {
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 70%);
+}
+
+button {
+  margin-top: 20px;
+  width: 150px;
+  font-size: 1.1rem;
+  line-height: 2;
+  border-radius: 10px;
+  border: none;
+  background-image: linear-gradient(to bottom right, #777, #ddd);
+  box-shadow: 1px 1px 1px black, inset 2px 3px 5px rgb(0 0 0 / 30%),
+    inset -2px -3px 5px rgb(255 255 255 / 80%);
+}
+
+button:focus,
+button:hover {
+  background-image: linear-gradient(to bottom right, #888, #eee);
+}
+
+button:active {
+  box-shadow: inset 2px 2px 1px black, inset 2px 3px 5px rgb(0 0 0 / 30%),
+    inset -2px -3px 5px rgb(255 255 255 / 50%);
+}

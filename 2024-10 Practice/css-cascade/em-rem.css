@@ -1,0 +1,30 @@
+html {
+  font-size: 20px;
+}
+
+.wrapper {
+  border: 30px dashed darkblue;
+  background-color: #eec0c8;
+  margin: 5% auto;
+  inline-size: 500px;
+  block-size: 600px;
+  overflow: auto;
+}
+
+.ems li {
+  font-size: 1.3em;
+}
+
+.rems li {
+  font-size: 1.3rem;
+}
+.test-em {
+  font-size: 1.5em;
+  /* padding: 0px;
+  margin: 0px; */
+  line-height: 2em;
+}
+
+img {
+  width: 100%;
+}

@@ -1,0 +1,4 @@
+/* inherited rules are not in origin precedence? */
+body {
+  color: red;
+}

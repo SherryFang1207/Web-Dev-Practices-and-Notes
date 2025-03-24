@@ -1,0 +1,56 @@
+h1 {
+  color: red;
+}
+p,
+li {
+  color: green;
+}
+li {
+  list-style-type: square;
+}
+/* A <li> having special class */
+li.special {
+  color: orange;
+  font-weight: bold;
+}
+/* Descendant combinator */
+/* A descendant of ... */
+li em {
+  color: rebeccapurple;
+}
+/* Next-sibling combinator */
+/* For <p> element that is at the same HTML hierarchy level as <h1> */
+/* Target elem is right next to a ... tag */
+h1 + p {
+  font-size: 200%;
+}
+p span {
+  color: red;
+}
+
+a:link {
+  color: pink;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* selects any <span> that is inside a <p>, which is inside an <article>  */
+article p span {
+}
+
+/* selects any <p> that comes directly after a <ul>, which comes directly after an <h1>  */
+h1 + ul + p {
+}
+/* This will style any element with a class of special, which is inside a <p>, which comes just after an <h1>, which is inside a <body>. Phew! */
+body h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}

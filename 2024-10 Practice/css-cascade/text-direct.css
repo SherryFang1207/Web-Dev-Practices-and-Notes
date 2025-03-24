@@ -1,0 +1,9 @@
+body {
+  /* writing-mode: vertical-rl; */
+}
+h1 {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  display: inline-block;
+}

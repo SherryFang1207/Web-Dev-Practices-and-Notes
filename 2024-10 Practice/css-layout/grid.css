@@ -1,0 +1,45 @@
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 2em auto;
+  font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+.container > div {
+  border-radius: 5px;
+  /* Each grid cell's height and width contains the FULL box-size of each cell box, from content to margin included. */
+  padding: 10px;
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+  line-break: anywhere;
+  /* margin: 10px; // Margin included! */
+
+  /* min-height: 0;
+  min-width: 0;
+  overflow: hidden; */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
+  /* overflow: hidden; */
+  border: 3px solid blue;
+}
+/* If we set multiple grid items at one cell position? */
+/* .container div:first-child {
+  display: inline;
+} */
+/* .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
+} */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
+}

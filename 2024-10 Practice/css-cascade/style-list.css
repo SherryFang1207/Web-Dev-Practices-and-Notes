@@ -1,0 +1,21 @@
+ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+ul li {
+  padding-left: 2rem;
+  background-image: url(leopardskin.jpg);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
+ul li {
+  padding-left: 2rem;
+  background-image: url(leopardskin.jpg);
+  background-size: cover; /* Ensures the background image covers the area, cropping if necessary */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat;
+  background-origin: content-box; /* Ensures padding does not affect the background positioning */
+}

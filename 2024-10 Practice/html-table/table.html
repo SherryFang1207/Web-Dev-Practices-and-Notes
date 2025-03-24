@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My spending record</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css" />
+    <style>
+      tbody {
+        font-size: 95%;
+        font-style: italic;
+      }
+
+      tfoot {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My spending record</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Purchase</th>
+          <th scope="col">Location</th>
+          <th scope="col">Date</th>
+          <th scope="col">Evaluation</th>
+          <th scope="col">Cost (€)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Haircut</th>
+          <td>Hairdresser</td>
+          <td>12/09</td>
+          <td>Great idea</td>
+          <td>30</td>
+        </tr>
+        <thead>
+          <tr>
+            <th colspan="3" scope="colgroup">Clothes</th>
+          </tr>
+          <tr>
+            <th scope="col">Trousers</th>
+            <th scope="col">Skirts</th>
+            <th scope="col">Dresses</th>
+          </tr>
+        </thead>
+      </tbody>
+    </table>
+  </body>
+</html>

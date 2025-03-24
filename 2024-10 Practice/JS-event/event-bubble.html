@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Events: Task 3</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      button {
+        display: block;
+        margin: 20px 0 20px 20px;
+      }
+
+      .button-bar {
+        padding: 20px 0;
+        border: 1px solid #ccc;
+      }
+    </style>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+    <section class="preview"></section>
+
+    <div class="button-bar">
+      <button data-color="red" dummy="I am a Dummy!">Red</button>
+      <button data-color="yellow">Yellow</button>
+      <button data-color="green">Green</button>
+      <button data-color="purple">Purple</button>
+    </div>
+
+    <script>
+      const buttonBar = document.querySelector(".button-bar");
+
+      // Add your code here
+      function changeColor(target) {
+        const dummy = target.attributes.dummy;
+        console.log("Hey," + dummy.name + " is a " + dummy.value);
+        const color = target.dataset.color;
+        console.log(target.attributes);
+        target.style.backgroundColor = color;
+      }
+      buttonBar.addEventListener("click", (e) => {
+        changeColor(e.target);
+      });
+    </script>
+  </body>
+</html>
